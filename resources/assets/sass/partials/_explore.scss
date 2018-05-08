@@ -1,0 +1,30 @@
+.explore {
+
+    .department-headline {
+        padding: 8px 16px;
+        border-radius: 5px 5px 0 0;
+        background-color: #3ea94f;
+        color: #ffffff;
+        margin: 0;
+        font-size: 16px;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+
+    .department-wrap {
+        margin: 10px auto;
+    }
+
+    .department-card {
+        height: 200px;
+        box-shadow: 10px 10px 10px 10px rgba(18, 25, 33, 0.2);
+    }
+
+    .department-card--thumb img {
+        height: 145px;
+    }
+
+    .department-card--footer a {
+        font-size: 13px;
+    }
+}

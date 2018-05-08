@@ -1,0 +1,124 @@
+.main-header {
+    background-color: #ffffff;
+}
+
+header {
+
+    .flex-container {
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        width: 100%;
+        max-width: 1100px;
+        margin: 0 auto;
+    }
+
+    .logo {
+        margin-right: auto;
+        display: flex;
+        align-items: center;
+
+        a {
+            margin-right: 5px;
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            color: #201784;
+        }
+        img {
+            height: 68px;
+        }
+        span {
+            display: block;
+        }
+    }
+
+    .menu {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        line-height: 72px;
+        color: #000000;
+
+        &-item {
+            margin: 0 20px;
+
+            a {
+                color: #000000;
+                text-decoration: none;
+            }
+        }
+    }
+
+    .auth {
+        line-height: 72px;
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        
+        a {
+            text-decoration: none;
+            color: #000000;
+            margin: 0 20px;
+        }
+
+        .donate {
+            border: 2px solid #3ea94e80;
+            padding: 10px;
+            background-color: #3ea94e;
+            border-radius: 5px;
+            color: #ffffff;
+        }
+
+        .join {
+            border: 2px solid #3ea94e80;
+            padding: 10px;
+            border-radius: 5px;
+        }
+    }
+
+    .header-search {
+        position: relative;
+    }
+
+    input[type="text"] {
+        width: 300px;
+        height: 40px;
+        padding: 0 30px 2px 40px;
+        font-size: 14px;
+        color: #111;
+        background-color: #f1f1f1;
+        border: 1px solid transparent;
+        border-radius: 20px;
+        outline: none;
+        transition: all .2s ease-in-out, width 3s;
+
+        &:hover {
+            width: 325px;
+            background-color: #ffffff;
+            border: 1px solid #f1f1f1;
+        }
+    }
+
+    .search-btn {
+        position: absolute;
+        top: -8px;
+        right: 10px;
+        height: 25px;
+        width: 25px;
+        display: inline-block;
+        color: #fff;
+        font-size: 26px;
+        line-height: 54px;
+        border-radius: 0 5px 5px 0;
+    }
+}
+
+.header-alt {
+    border-bottom: 1px solid #f0f0f0;
+    padding-bottom: 5px;
+}

@@ -1,0 +1,28 @@
+.partner {
+    margin-bottom: 48px;
+
+    &-headline {
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 900;
+    }
+    &-subheadline {
+        text-align: center;
+    }
+    &-links {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        max-width: 1100px;
+        margin: 20px auto;
+    }
+    &-inst {
+        display: block;
+        margin: 10px;
+
+        img {
+            display: block;
+            height: 90px;
+        }
+    }
+}

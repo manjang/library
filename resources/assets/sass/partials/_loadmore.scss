@@ -1,0 +1,17 @@
+.load-more {
+    width: calc(100% - 20px);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    a {
+        text-decoration: none;
+        color: #ffffff;
+        background-color: #232f3e;
+        border-radius: 5px;
+        padding: 10px;
+        font-size: 14px;
+        text-transform: uppercase;
+    }
+}
